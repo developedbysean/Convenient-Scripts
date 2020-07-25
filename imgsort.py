@@ -3,7 +3,7 @@ import datetime
 
 path = r"C:\Users\user\Pictures"
 
-img_extensions = ['.jpg','.JPG', '.png', '.gif', '.jpeg']
+#img_extensions = ['.jpg','.JPG', '.png', '.gif', '.jpeg']
 
 for files in os.listdir(path):
     for img_extension in img_extensions:
